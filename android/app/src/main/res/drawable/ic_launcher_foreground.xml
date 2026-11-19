@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+  <!-- Chat Bubble Body in Royal Blue -->
+  <path
+      android:fillColor="#1E40AF"
+      android:pathData="M36,24 L72,24 C80.8,24 88,31.2 88,40 L88,60 C88,68.8 80.8,76 72,76 L48,76 L34,88 L35,76 L36,76 C27.2,76 20,68.8 20,60 L20,40 C20,31.2 27.2,24 36,24 Z" />
+  
+  <!-- Subtle Gradient Depth Accent inside bubble -->
+  <path
+      android:fillColor="#2563EB"
+      android:pathData="M36,24 L72,24 C80.8,24 88,31.2 88,40 L88,46 L20,46 L20,40 C20,31.2 27.2,24 36,24 Z" />
+
+  <!-- Primary AI Sparkle (White) -->
+  <path
+      android:fillColor="#FFFFFF"
+      android:pathData="M54,36 C54,43.5 46.5,50 39,50 C46.5,50 54,56.5 54,64 C54,56.5 61.5,50 69,50 C61.5,50 54,43.5 54,36 Z" />
+
+  <!-- Secondary Mini Sparkle (Sky Blue) -->
+  <path
+      android:fillColor="#93C5FD"
+      android:pathData="M69,32 C69,35.5 65.5,38 62,38 C65.5,38 69,40.5 69,44 C69,40.5 72.5,38 76,38 C72.5,38 69,35.5 69,32 Z" />
+</vector>

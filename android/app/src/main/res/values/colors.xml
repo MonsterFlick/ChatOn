@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Palette: White & Vibrant Royal Blue -->
+    <color name="blue500">#1E40AF</color>
+    <color name="blue800">#172554</color>
+    <color name="yellow700">#2563EB</color> <!-- Replaced legacy yellow with electric blue -->
+
+    <!-- Dark Palette -->
+    <color name="blue300">#93C5FD</color>
+    <color name="blue400">#3B82F6</color>
+    <color name="yellow400">#60A5FA</color>
+
+    <!-- Extended ChatOn Brand Tokens -->
+    <color name="chaton_primary">#1E40AF</color>
+    <color name="chaton_accent">#2563EB</color>
+    <color name="chaton_surface_light">#FFFFFF</color>
+    <color name="chaton_surface_subtle">#F8FAFC</color>
+    <color name="chaton_bubble_user">#1E40AF</color>
+    <color name="chaton_bubble_assistant">#F0F7FF</color>
+    <color name="chaton_border">#E2E8F0</color>
+
+    <!-- Logo & Icon -->
+    <color name="blue_logo">#1E40AF</color>
+    <color name="yellow_logo">#2563EB</color>
+</resources>

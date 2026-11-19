@@ -1,0 +1,421 @@
+<resources>
+    <string name="app_name" translatable="false">ChatOn</string>
+    <string name="developer_name" translatable="false">Om Thakur</string>
+    <string name="developer_website" translatable="false">https://omthakur.in</string>
+    <string name="developer_email" translatable="false">omthakur2366@gmail.com</string>
+    <string name="about_developer">About the Developer</string>
+    <string name="project_subtitle">Final Year Project • omthakur.in</string>
+
+    <string name="navigation_drawer_open">Open menu</string>
+    <string name="navigation_drawer_close">Close menu</string>
+    <string name="nav_header_title" translatable="false">ChatOn AI Workspace</string>
+    <string name="nav_header_subtitle" translatable="false">omthakur2366@gmail.com</string>
+    <string name="nav_header_desc">ChatOn Navigation Header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Chats</string>
+    <string name="menu_gallery">Saved Images</string>
+    <string name="menu_slideshow">Visualizations</string>
+    <string name="conversations">Chat History</string>
+    <string name="profile">Developer Profile</string>
+    <string name="jumpBottom">Scroll to latest</string>
+    <string name="send">Send</string>
+    <string name="author_me">You</string>
+    <string name="members">%d participants</string>
+    <string name="textfield_hint">Ask ChatOn anything…</string>
+    <string name="take_photo">Capture photo</string>
+    <string name="choose_from_library">Upload from gallery</string>
+    <string name="camera_unavailable">Camera hardware is not accessible</string>
+    <string name="swipe_to_cancel_recording">&#x25C0; Swipe to cancel dictation</string>
+    <string name="emojis_label">Emoji</string>
+    <string name="stickers_label">Stickers</string>
+
+    <string name="message">Prompt</string>
+    <string name="edit_profile">User Preferences</string>
+    <string name="profile_error">Unable to load profile settings</string>
+    <string name="bio">About You</string>
+    <string name="display_name">User Name</string>
+    <string name="status">Model Status</string>
+    <string name="timezone">Local Timezone</string>
+    <string name="twitter">Social Link</string>
+    <string name="common_channels">Active Sessions</string>
+    <string name="lorem" translatable="false">Local AI Model</string>
+
+    <!-- Accessibility descriptions -->
+    <string name="emoji_selector_desc">Emoji picker</string>
+    <string name="emoji_selector_bt_desc">Open Emoji picker</string>
+    <string name="dm_desc">Direct Conversation</string>
+    <string name="attach_photo_desc">Attach Image</string>
+    <string name="map_selector_desc">Select location</string>
+    <string name="videochat_desc">Video session</string>
+    <string name="textfield_desc">Chat input prompt field</string>
+    <string name="not_available">Feature under optimization</string>
+    <string name="not_available_subtitle">This capability is being tailored for your hardware profile.</string>
+    <string name="attached_image">Attached visual context</string>
+    <string name="search">Find</string>
+    <string name="info">Details</string>
+    <string name="more_options">Actions &amp; Options</string>
+    <string name="touch_and_hold_to_record">Hold button to speak</string>
+    <string name="record_message">Record voice input</string>
+    <string name="stop">Halt Generation</string>
+
+    <string name="share">Export / Share</string>
+    <string name="copy">Copy Text</string>
+    <string name="upvote">Helpful Response</string>
+    <string name="downvote">Needs Improvement</string>
+    <string name="rating_question">What could ChatOn do better here?</string>
+    <string name="offensive_unsafe">Unsafe / Irrelevant</string>
+    <string name="not_correct">Factual Inaccuracy</string>
+    <string name="didnt_follow_instructions">Instruction ignored</string>
+    <string name="wrong_language">Incorrect language</string>
+    <string name="other">Other reason</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings &amp; Preferences</string>
+    <string name="back">Back</string>
+    <string name="version">ChatOn Build %s</string>
+    <string name="models_subtitle">Manage on-device GGUF models and weights</string>
+    <string name="privacy_policy">Privacy &amp; Data Security</string>
+    <string name="privacy_policy_effective_date">Policy Updated: November 2026</string>
+    <string name="privacy_policy_intro">ChatOn is built on a core philosophy: zero cloud dependence and total user privacy. Your conversations, documents, system instructions, and generated tokens remain strictly on your physical Android hardware. No analytics, tracking, or cloud telemetries are embedded.</string>
+    <string name="privacy_policy_s1_title">1. Absolute Data Sovereignty</string>
+    <string name="privacy_policy_s1_body">I, Om Thakur, engineer of ChatOn, believe personal computing should be truly personal. ChatOn requires no user registration, enforces no cloud account requirements, and runs no analytics trackers. Your data is yours alone.</string>
+    <string name="privacy_policy_s2_title">2. Edge Computing Architecture</string>
+    <string name="privacy_policy_s2_body">All natural language generation and vector embedding computations are performed natively by your device\'s chipset via llama.cpp. Your queries are never uploaded to any remote server or third-party AI provider for processing.</string>
+    <string name="privacy_policy_s3_title">3. Minimal Network Access</string>
+    <string name="privacy_policy_s3_body">Network permission is used exclusively for downloading the model files you explicitly request from Hugging Face repositories, or for external tool lookups if you opt-in. The core application functions 100% offline.</string>
+    <string name="privacy_policy_s4_title">4. Sandboxed Tool Execution</string>
+    <string name="privacy_policy_s4_body">Optional tools (Web search and Fetch page) communicate directly with target public endpoints only when toggled on by you. The integrated JavaScript engine executes within an isolated on-device sandbox without network access.</string>
+    <string name="privacy_policy_s5_title">5. Ongoing Maintenance</string>
+    <string name="privacy_policy_s5_body">Any technical enhancements or architecture updates will be posted to omthakur.in. Users are invited to explore the project code and technical thesis.</string>
+    <string name="privacy_policy_s6_title">6. Agreement</string>
+    <string name="privacy_policy_s6_body">By utilizing ChatOn, you benefit from local, decentralized on-device AI. For inquiries or collaboration, contact Om Thakur at omthakur2366@gmail.com.</string>
+    <string name="privacy_policy_s7_title">7. Developer Inquiries</string>
+    <string name="privacy_policy_s7_body">Have ideas, bug reports, or feedback for ChatOn? Reach out directly via email or visit omthakur.in.</string>
+    <string name="privacy_policy_contact_email" translatable="false">omthakur2366@gmail.com</string>
+    <string name="send_feedback">Email Om Thakur</string>
+    <string name="faq">Help &amp; Knowledge Base</string>
+    <string name="faq_subtitle">Architectural concepts and user guide</string>
+
+    <!-- FAQ -->
+    <string name="faq_q1">What makes ChatOn different from other AI apps?</string>
+    <string name="faq_a1">ChatOn executes generative AI models directly on your smartphone\'s processor using native C++ kernels (llama.cpp). Unlike apps that stream requests to commercial cloud servers, ChatOn gives you complete offline availability, absolute data security, and zero subscription costs.</string>
+    <string name="faq_q2">Which AI models are compatible with ChatOn?</string>
+    <string name="faq_a2">ChatOn supports any modern architecture quantized in GGUF format (Q4_K_M, Q3_K_M, etc.), including DeepSeek R1 Distill, Qwen 3.5, Google Gemma 3 &amp; 4, Meta Llama 3.2, and Microsoft Phi-4 Mini.</string>
+    <string name="faq_q3">What storage capacity is required?</string>
+    <string name="faq_a3">Model files typically span from 500 MB (compact models like Qwen 0.6B) to 4–5 GB (high-capacity models like DeepSeek 7B). We recommend having at least 4 to 8 GB of free internal storage.</string>
+    <string name="faq_q4">Does ChatOn require an internet connection?</string>
+    <string name="faq_a4">Internet is only needed during initial model weight downloads and optional web search tools. Once a model is saved to your phone, ChatOn runs seamlessly in airplane mode without internet access.</string>
+    <string name="faq_q5">How is my personal data protected?</string>
+    <string name="faq_a5">ChatOn has no tracking servers, telemetry trackers, or database sync. Every token of chat history is stored in an encrypted local SQLite database on your device and never egresses outside.</string>
+    <string name="faq_q6">How does device hardware affect token speed?</string>
+    <string name="faq_a6">Generation speed depends on your mobile processor (ARM Cortex cores, memory bandwidth, and GPU/NPU support). Modern chipsets generate responses in seconds using ARM NEON vector instructions.</string>
+    <string name="faq_q7">What hardware configuration is recommended?</string>
+    <string name="faq_a7">For optimal experience, a device with 6 GB RAM or higher is recommended for 1B–3B models, and 8 GB to 12 GB RAM for 7B+ parameter reasoning models.</string>
+    <string name="faq_q8">Can I import my own custom GGUF models?</string>
+    <string name="faq_a8">Yes! Save any GGUF file into the ChatOn storage directory configured in Settings \u2192 Models. ChatOn dynamically inspects the file\'s metadata and makes it available in the chat picker immediately.</string>
+    <string name="faq_q9">How can I select a different storage folder?</string>
+    <string name="faq_a9">Navigate to Settings \u2192 Models and tap \u201CChange Folder\u201D to pick an internal folder or high-speed SD card via Android Storage Access Framework.</string>
+    <string name="faq_q10">How do I remove unused models to free space?</string>
+    <string name="faq_a10">Go to Settings \u2192 Models, view your \u201CDownloaded\u201D models list, and tap the delete icon next to the model you wish to purge.</string>
+    <string name="faq_q11">What are System Prompts in ChatOn?</string>
+    <string name="faq_a11">System prompts are behavioral instructions that guide the AI\'s persona, response tone, or formatting rules. You can save multiple custom prompts and apply them on-the-fly to any conversation.</string>
+    <string name="faq_q12">What tool capabilities can models access?</string>
+    <string name="faq_a12">Capable models can invoke tool calls mid-stream: Sandboxed JavaScript for math and algorithms, Web Search for real-time headlines, and Web Fetch for webpage summarization.</string>
+    <string name="faq_q13">Are tool calls private?</string>
+    <string name="faq_a13">JavaScript execution is 100% offline and sandboxed. When search is triggered, queries are dispatched directly to public search engines without passing through intermediary servers.</string>
+    <string name="faq_q14">Does ChatOn generate in the background?</string>
+    <string name="faq_a14">Yes. ChatOn runs the inference engine in a dedicated foreground service so Android OS does not evict long generations. A status notification updates live with token counts and progress.</string>
+    <string name="faq_q15">Is voice recognition processed on-device?</string>
+    <string name="faq_a15">Yes! Tapping the microphone leverages an offline speech-to-text neural network. Voice audio is never sent over any network and is transcribed purely in device RAM.</string>
+
+    <!-- Models Screen -->
+    <string name="models">AI Models</string>
+    <string name="change_folder">Change Storage Location</string>
+    <string name="delete_model">Remove</string>
+    <string name="download_model">Download Model</string>
+    <string name="storage_used_models">Used by Models: %s</string>
+    <string name="storage_available">%s free storage</string>
+    <string name="downloads_folder">Default Downloads directory</string>
+    <string name="custom_folder">Custom directory</string>
+    <string name="delete_model_confirm">Delete %s?</string>
+    <string name="delete_model_message">This will remove the GGUF weights from your device storage.</string>
+    <string name="downloaded_models">Installed Models</string>
+    <string name="available_models">Model Catalog</string>
+    <string name="supports_your_language">Optimized for your locale</string>
+    <string name="other_models">Extended Model Library</string>
+    <string name="language">App Language</string>
+    <string name="language_system_default">System Default</string>
+    <string name="no_downloaded_models">No AI models installed yet</string>
+    <string name="browse_more_models">Browse AI Catalog</string>
+    <string name="cancel">Cancel</string>
+    <string name="low_ram_warning_title">High Memory Allocation Warning</string>
+    <string name="low_ram_warning_message">This model requires ~%1$s RAM, but your device has %2$s total RAM. It may trigger an out-of-memory condition. Consider toggling off Repack in Advanced settings for low-memory mode.</string>
+    <string name="load_anyway">Proceed Anyway</string>
+
+    <!-- Download notifications -->
+    <string name="download_notification_channel">Model Downloads</string>
+    <string name="download_notification_channel_description">Tracks download status for GGUF weights</string>
+    <string name="download_complete">Model Downloaded Successfully</string>
+    <string name="moving_to_storage">Finalizing storage write\u2026</string>
+    <string name="starting_download">Connecting to repository\u2026</string>
+    <string name="download_failed">Download interrupted</string>
+    <string name="download_cancelled">Download stopped</string>
+    <string name="waiting_for_network">Awaiting network connection\u2026</string>
+
+    <!-- Migration -->
+    <string name="migrate_models_title">Migrate Existing Models?</string>
+    <string name="migrate_models_message">Detected %1$d model(s) (%2$s) in previous directory. Transfer them to your new storage path?</string>
+    <string name="migrate_models_from_downloads">Found %1$d model(s) (%2$s) in Downloads. Move them to ChatOn\'s designated folder?</string>
+    <string name="models_to_migrate">Detected Files:</string>
+    <string name="migrate">Move Files</string>
+    <string name="skip">Leave Intact</string>
+    <string name="migrating_models">Relocating AI Models</string>
+    <string name="migration_progress">Transferring %1$d of %2$d</string>
+
+    <!-- System prompts -->
+    <string name="system_prompts">Persona Instructions</string>
+    <string name="system_prompts_subtitle">Custom system prompts &amp; AI directives</string>
+    <string name="system_prompts_empty">No custom personas yet. Tap + to craft one.</string>
+    <string name="system_prompt_new">Create Persona Instruction</string>
+    <string name="system_prompt_edit">Modify Persona</string>
+    <string name="system_prompt_hint">e.g. You are an expert software architect. Provide concise, clean code with security insights.</string>
+    <string name="system_prompt_current">Active Directive</string>
+    <string name="system_prompt_current_empty">Default Assistant — tap to assign persona</string>
+    <string name="saved_prompts">Saved Persona Library</string>
+    <string name="system_prompt_update">Save Changes</string>
+    <string name="save">Save Directive</string>
+    <string name="add">Create</string>
+    <string name="clear">Reset</string>
+
+    <!-- General UI -->
+    <string name="select_model">Choose AI Model</string>
+    <string name="new_conversation">Start New Chat</string>
+    <string name="close">Dismiss</string>
+    <string name="pinned_label">Pinned Session</string>
+    <string name="unpin">Unpin</string>
+    <string name="pin">Pin to Top</string>
+    <string name="rename">Edit Title</string>
+    <string name="delete">Delete Chat</string>
+    <string name="rename_conversation">Edit Chat Title</string>
+    <string name="previously_used_model">Last loaded: %s</string>
+
+    <!-- Storage -->
+    <string name="choose_storage_folder">Designate Storage Directory</string>
+    <string name="choose_storage_folder_message">ChatOn stores multi-GB model weights locally. Choose a folder with sufficient storage capacity.</string>
+    <string name="choose_folder">Select Storage Folder</string>
+    <string name="folder_picker_unavailable">System file manager unavailable. Ensure Files app is enabled.</string>
+    <string name="storage_fallback_used">Using internal application storage for model weights.</string>
+
+    <!-- Session -->
+    <string name="session_info">Session Diagnostics</string>
+
+    <!-- Generation Parameters -->
+    <string name="generation_parameters">Inference Tuning</string>
+    <string name="tab_params">Hyperparameters</string>
+    <string name="tab_prompt">System Directive</string>
+    <string name="reset">Restore Defaults</string>
+    <string name="context_size">Context Window</string>
+    <string name="will_reset_conversation">Resets active context memory</string>
+    <string name="thinking_budget">Reasoning Token Budget</string>
+    <string name="tokens_value">%d tokens</string>
+    <string name="temperature">Creativity (Temperature)</string>
+    <string name="top_p" translatable="false">Top-P</string>
+    <string name="top_k" translatable="false">Top-K</string>
+    <string name="min_p" translatable="false">Min-P</string>
+    <string name="repetition_penalty">Frequency Penalty</string>
+    <string name="advanced">Advanced Parameters</string>
+    <string name="collapse">Minimize</string>
+    <string name="expand">Expand</string>
+    <string name="seed">Random Seed</string>
+    <string name="random">Stochastic</string>
+    <string name="disabled_label">off</string>
+    <string name="unload_model">Eject Model from RAM</string>
+
+    <!-- Thinking -->
+    <string name="thinking">Reasoning Process</string>
+    <string name="collapse_thinking">Hide thought chain</string>
+    <string name="expand_thinking">Show thought chain</string>
+    <string name="thoughts">Internal Reasoning</string>
+
+    <!-- Functionality -->
+    <string name="functionality_not_available">Feature under development</string>
+
+    <!-- Marketing & Preview copy -->
+    <string name="screenshot_hero_title_prefix">Experience AI on</string>
+    <string name="screenshot_hero_title_emphasis">your</string>
+    <string name="screenshot_hero_title_suffix">device</string>
+    <string name="screenshot_hero_title_suffix_tablet">tablet</string>
+    <string name="screenshot_hero_subtitle">Zero Cloud • 100% Private • High Performance</string>
+    <string name="screenshot_hero_providers_label">Leading open architectures:</string>
+    <string name="screenshot_choose_model">Select Model</string>
+    <string name="screenshot_choose_model_sub">from state-of-the-art open weights</string>
+    <string name="screenshot_chat">Private Neural Chat</string>
+    <string name="screenshot_chat_sub">computed completely on-device</string>
+    <string name="screenshot_documents">Document RAG Intelligence</string>
+    <string name="screenshot_documents_sub">extract insights directly from files</string>
+    <string name="screenshot_vision">Multimodal Vision</string>
+    <string name="screenshot_vision_sub">understand photos and documents</string>
+    <string name="screenshot_fine_tune">Fine-Tune Hyperparameters</string>
+    <string name="screenshot_fine_tune_sub">tailor temperature and context buffers</string>
+    <string name="screenshot_download_models">Manage GGUF Weights</string>
+    <string name="screenshot_download_models_sub">store in any directory of your choice</string>
+    <string name="screenshot_prompts">Custom Directives</string>
+    <string name="screenshot_prompts_sub">craft repeatable assistant personas</string>
+    <string name="screenshot_tools">External Tools</string>
+    <string name="screenshot_tools_sub">web searches and JS calculations</string>
+    <string name="screenshot_notification">Foreground Generation</string>
+    <string name="screenshot_notification_sub">streaming notifications with token stats</string>
+
+    <!-- Sample System Prompts -->
+    <string name="screenshot_system_prompt_sample">You are a clear, structured technical instructor. Explain difficult concepts simply with practical examples.</string>
+    <string name="screenshot_prompt_sample_code">You are a senior systems engineer. Review code for algorithmic efficiency, edge cases, and memory overhead.</string>
+    <string name="screenshot_prompt_sample_translator">You are a precision translator. Translate input text accurately into fluent, natural French.</string>
+    <string name="screenshot_prompt_sample_brainstorm">You are an innovative ideation assistant. Provide structured, novel concepts and challenge assumptions.</string>
+
+    <!-- Sample Chat Copy -->
+    <string name="screenshot_vision_question">Describe what you observe in this scene.</string>
+    <string name="screenshot_vision_response">A detailed view of a high-altitude mountain valley under clear lighting conditions, featuring rocky geology and Alpine vegetation.</string>
+    <string name="screenshot_documents_question">What are the primary performance criteria stated in the specification?</string>
+    <string name="screenshot_documents_response">According to Section 4.1, the system guarantees under 50ms latency for embedding extraction and requires a memory footprint below 2.0 GB during active inference.</string>
+    <string name="screenshot_chat_question">Explain on-device LLM quantization.</string>
+    <string name="screenshot_chat_response">Quantization converts high-precision 16-bit floating point neural weights into compact 4-bit integers (e.g., Q4_K_M). This shrinks memory footprint by ~75% and accelerates execution using integer vector registers with virtually negligible loss in linguistic fidelity.</string>
+
+    <!-- Model categories -->
+    <string name="model_category_lightweight">Ultra-Fast Lightweight Model</string>
+    <string name="model_category_general">Balanced General Purpose Model</string>
+    <string name="model_category_efficient">High-Efficiency Mobile Model</string>
+    <string name="model_category_reasoning">Deep Thinking Reasoning Model</string>
+    <string name="model_category_ultra_lightweight">Minimal Memory Footprint</string>
+    <string name="model_category_compact_reasoning">Compact Reasoning Model</string>
+    <string name="model_category_thinking">Advanced Thought-Chain Model</string>
+    <string name="model_category_enterprise">High-Capability Architecture</string>
+
+    <!-- What\'s New / Highlights -->
+    <string name="whats_new">Welcome to ChatOn</string>
+    <string name="whats_new_voice">Real-Time Voice Dictation</string>
+    <string name="whats_new_voice_detail">Fast speech-to-text without cloud streaming</string>
+    <string name="whats_new_voice_languages">Supports 35+ languages entirely offline</string>
+    <string name="whats_new_documents">Document RAG Intelligence</string>
+    <string name="whats_new_documents_detail">Attach PDFs, Word docs, and text files for Q&amp;A</string>
+    <string name="whats_new_documents_search">Semantic embeddings calculated locally</string>
+    <string name="whats_new_vision">Multimodal Visual Understanding</string>
+    <string name="whats_new_vision_detail">Attach gallery images or snap photos for analysis</string>
+    <string name="whats_new_vision_models">Compatible with vision-enabled architectures</string>
+    <string name="whats_new_item_1">Capabilities &amp; Extensions</string>
+    <string name="whats_new_tools">Web search, page fetching &amp; JS computing</string>
+    <string name="whats_new_cache">Instant replies with KV-cache reuse</string>
+    <string name="whats_new_item_2">Multi-lingual support across locales</string>
+    <string name="whats_new_item_3">High-speed ARM NEON &amp; Vulkan kernels</string>
+    <string name="set_up_tools">Configure Tools</string>
+
+    <!-- Sound and Haptic -->
+    <string name="sound_and_haptic">Audio &amp; Haptic Feedback</string>
+    <string name="sound_and_haptic_subtitle">Tactile streaming ticks and completion chimes</string>
+    <string name="sound_on_completion_title">Play chime upon response completion</string>
+    <string name="sound_on_completion_desc">Emits a subtle audio chime when background generation finishes.</string>
+    <string name="haptic_on_generation_title">Tactile streaming haptics</string>
+    <string name="haptic_on_generation_desc">Provides gentle haptic feedback pulses as tokens stream into the chat.</string>
+    <string name="advanced_subtitle">Inference engine buffers &amp; RAM management</string>
+    <string name="enable_repack_title">Enable Memory Repacking</string>
+    <string name="enable_repack_desc">Repacks model tensors into physical RAM for accelerated generation. Requires additional memory headroom.</string>
+
+    <!-- Tools -->
+    <string name="tools">Model Tools &amp; Actions</string>
+    <string name="tools_subtitle">Allow models to query web sources and execute scripts</string>
+    <string name="tools_section_intro">Capable models can invoke tool calls during generation to verify factual details, perform calculations, or fetch documentation. All tools are off by default.</string>
+    <string name="tools_example_label">Usage Example: %1$s</string>
+    <string name="tools_params_sheet_subtitle">Tool execution definitions</string>
+    <string name="tools_unsupported">Active model does not support tool calling</string>
+    <string name="tool_call_input">Parameters</string>
+    <string name="tool_call_output">Result</string>
+    <string name="cd_supports_tools">Equipped with Tool Calling</string>
+    <string name="cd_supports_thinking">Equipped with Reasoning Chain</string>
+    <string name="cd_supports_vision">Equipped with Visual Understanding</string>
+    <string name="download_with_vision_title">Download Vision Module?</string>
+    <string name="download_with_vision_message">%1$s supports image analysis. Would you like to include the vision module or download the text-only weights?</string>
+    <string name="download_with_images">Include Vision</string>
+    <string name="download_text_only">Text Weights Only</string>
+    <string name="image_module_description">Visual encoder module for image analysis</string>
+    <string name="cd_download_image_module">Download vision components</string>
+    <string name="vision_module_available">Download Visual Components</string>
+    <string name="vision_module_downloading">Downloading visual components\u2026</string>
+    <string name="tool_run_javascript_title">Sandboxed JavaScript</string>
+    <string name="tool_run_javascript_desc">Executes math equations and data parsing inside an isolated on-device sandbox.</string>
+    <string name="tool_run_javascript_example">\"Calculate the compound interest for $10,000 at 7% over 15 years.\"</string>
+    <string name="tool_web_search_title">Web Search</string>
+    <string name="tool_web_search_desc">Dispatches search queries to fetch recent headlines and references.</string>
+    <string name="tool_web_search_example">\"What are the latest developments in quantum computing?\"</string>
+    <string name="tool_web_fetch_title">Web Page Reader</string>
+    <string name="tool_web_fetch_desc">Fetches and parses article text from a target URL for summarization.</string>
+    <string name="tool_web_fetch_example">\"Summarize key takeaways from the provided link.\"</string>
+
+    <!-- Notifications -->
+    <string name="inference_notification_channel_name">ChatOn Inference Service</string>
+    <string name="inference_notification_channel_description">Keeps on-device model active in RAM</string>
+    <string name="inference_notification_title">ChatOn</string>
+    <string name="inference_notification_text">AI model loaded — ready for input.</string>
+    <string name="inference_notification_loaded_title">Model active in memory</string>
+    <string name="inference_notification_generating_title">Generating response\u2026</string>
+    <string name="inference_notification_ready_title">Response generated</string>
+    <string name="inference_notification_tokens_line">%1$s · %2$s</string>
+    <plurals name="inference_notification_tokens">
+        <item quantity="one">%d token</item>
+        <item quantity="other">%d tokens</item>
+    </plurals>
+    <string name="response_copied">Copied response to clipboard</string>
+    <string name="inference_engine_crashed">The inference worker experienced an unexpected exception. Please reload the model.</string>
+    <string name="message_too_large">Prompt exceeds maximum buffer limit (%1$d KB &gt; %2$d KB). Please shorten input.</string>
+    <string name="replay_history_too_large">Chat history exceeds model context window. Please initiate a new chat session.</string>
+    <string name="system_prompt_too_large">Directive exceeds allocated buffer (%1$d KB &gt; %2$d KB).</string>
+    <string name="history_message_too_large">Saved session message exceeds context size.</string>
+    <string name="inference_engine_unavailable">Engine worker initializing. Please retry in a moment.</string>
+    <string name="model_load_failed_status">Model Initialization Failed</string>
+    <string name="model_load_failed_title">Unable to Load Model</string>
+    <string name="model_load_failed_message">Could not load %1$s. The weights may be corrupted or unsupported by this engine version.</string>
+    <string name="model_load_failed_dismiss">Acknowledge</string>
+
+    <!-- Document RAG -->
+    <string name="attach_document">Attach Document</string>
+    <string name="attached_document">Attached Document</string>
+    <string name="remove_document">Remove Document</string>
+    <string name="remove_document_title">Detach Document?</string>
+    <string name="remove_document_message">“%1$s” and its vector index will be unlinked from this session.</string>
+    <string name="remove">Detach</string>
+    <string name="document_open_failed">Unable to access document.</string>
+    <string name="document_source_unavailable">Document file is no longer accessible on storage.</string>
+    <string name="document_unsupported_format">Format unsupported. Supported formats: PDF, DOCX, TXT, Markdown, EPUB, HTML.</string>
+    <string name="document_too_large">File exceeds 30 MB size threshold.</string>
+    <string name="document_storage_missing">Configure storage directory first (Settings \u2192 Models).</string>
+    <string name="document_embedding_download_failed">Failed to fetch embedding weights. Please check connection and retry.</string>
+    <string name="document_error_encrypted">Document is password protected and cannot be extracted.</string>
+    <string name="document_error_no_text">No readable text found inside document.</string>
+    <string name="document_error_parse_failed">Document parser encountered an error.</string>
+    <string name="document_error_embedding">Vector indexing failed. Please re-attach document.</string>
+    <string name="embedding_model_dialog_title">Enable Local Document RAG</string>
+    <string name="embedding_model_dialog_message">Document analysis uses an on-device embedding model (%1$s, %2$s) to index and query passages locally.</string>
+
+    <!-- Dictation -->
+    <string name="dictation_start">Begin voice dictation</string>
+    <string name="dictation_stop">End voice dictation</string>
+    <string name="dictation_permission_denied">Microphone permission required for offline speech dictation.</string>
+    <string name="dictation_record_failed">Audio recording session failed to start.</string>
+    <string name="dictation_failed">Speech-to-text recognition encountered an error.</string>
+    <string name="dictation_storage_not_configured">Configure model storage path in Settings first.</string>
+    <string name="dictation_model_dialog_title">Download Offline Speech Model</string>
+    <string name="dictation_model_dialog_message">Offline dictation requires downloading speech recognition weights (%1$s, %2$s). It runs 100% locally in 35+ languages.</string>
+    <string name="dictation_model_downloading">Downloading voice dictation engine\u2026</string>
+
+    <!-- Debug -->
+    <string name="debug_crash_engine_title" translatable="false">Simulate Engine Failure (Test)</string>
+    <string name="debug_crash_engine_subtitle" translatable="false">Terminates the :llama service to verify multi-process recovery.</string>
+    <string name="debug_crash_engine_not_connected" translatable="false">Service disconnected.</string>
+    <string name="debug_crash_engine_done" translatable="false">Failure injected — verify graceful recovery banner in chat.</string>
+
+    <string name="edit_message">Edit Prompt</string>
+    <string name="regenerate">Regenerate Reply</string>
+    <string name="branch_from_here">Branch Conversation</string>
+    <string name="branch_title">%1$s (Branch)</string>
+    <string name="branch_title_numbered">%1$s (Branch %2$d)</string>
+    <string name="branch_created">Branched to new session</string>
+</resources>
