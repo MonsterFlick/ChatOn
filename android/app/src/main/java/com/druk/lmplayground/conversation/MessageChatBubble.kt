@@ -412,9 +412,23 @@ private fun CollapsibleSection(
     }
 }
 
+private fun formatDuration(seconds: Int): String {
+    return if (seconds >= 60) {
+        val minutes = seconds / 60
+        val remainingSeconds = seconds % 60
+        if (remainingSeconds > 0) "${minutes}m ${remainingSeconds}s" else "${minutes}m"
+    } else {
+        "${seconds}s"
+    }
+}
+
 private fun formatResponseStats(message: Message): String {
     val totalTokens = message.responseTokens + message.thinkingTokens
-    val speed = if (message.tokensPerSecond > 0f) " \u00B7 %.1f t/s".format(message.tokensPerSecond) else ""
+    val speed = if (message.responseDurationSeconds > 0f) {
+        " \u00B7 %.1f t/s".format(message.responseTokens / message.responseDurationSeconds)
+    } else {
+        ""
+    }
     return "$totalTokens tokens$speed"
 }
 

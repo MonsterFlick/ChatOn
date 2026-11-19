@@ -13,7 +13,7 @@
 # listed there. Nothing about a consumer's binary changes by going through it.
 #
 
-cmake_minimum_required(VERSION 3.31.6)
+cmake_minimum_required(VERSION 3.22.1)
 
 set(LMP_CORE_DIR  "${CMAKE_CURRENT_LIST_DIR}")
 set(LMP_LLAMA_DIR "${LMP_CORE_DIR}/llama.cpp")

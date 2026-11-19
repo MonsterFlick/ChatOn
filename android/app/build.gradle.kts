@@ -111,11 +111,16 @@ android {
                 arguments += "-DLLAMA_OPENSSL=OFF"
                 arguments += "-DGGML_LLAMAFILE=OFF"
                 arguments += "-DGGML_NATIVE=OFF"
-                arguments += "-DGGML_VULKAN=ON"
-                vulkanGlslcPath?.let { arguments += "-DVulkan_GLSLC_EXECUTABLE=$it" }
-                vulkanIncludeDir?.let { arguments += "-DVulkan_INCLUDE_DIR=$it" }
-                spirvHeadersDir?.let { arguments += "-DSPIRV-Headers_DIR=$it" }
-                spirvIncludeDir?.let { arguments += "-DSPIRV_HEADERS_INCLUDE_DIR=$it" }
+                val hasVulkan = vulkanGlslcPath != null && vulkanIncludeDir != null && spirvHeadersDir != null
+                if (hasVulkan) {
+                    arguments += "-DGGML_VULKAN=ON"
+                    arguments += "-DVulkan_GLSLC_EXECUTABLE=$vulkanGlslcPath"
+                    arguments += "-DVulkan_INCLUDE_DIR=$vulkanIncludeDir"
+                    arguments += "-DSPIRV-Headers_DIR=$spirvHeadersDir"
+                    spirvIncludeDir?.let { arguments += "-DSPIRV_HEADERS_INCLUDE_DIR=$it" }
+                } else {
+                    arguments += "-DGGML_VULKAN=OFF"
+                }
                 // ggml-vulkan's find_package(SPIRV-Headers CONFIG) is a host
                 // package; let the Android cross-compile toolchain search the
                 // host prefix for CONFIG packages (does not affect FindVulkan,
@@ -143,7 +148,7 @@ android {
     externalNativeBuild {
         cmake {
             path = file("src/main/cpp/CMakeLists.txt")
-            version = "3.31.6"
+            version = "3.22.1"
         }
     }
 

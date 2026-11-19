@@ -403,7 +403,7 @@
     <string name="dictation_failed">Speech-to-text recognition encountered an error.</string>
     <string name="dictation_storage_not_configured">Configure model storage path in Settings first.</string>
     <string name="dictation_model_dialog_title">Download Offline Speech Model</string>
-    <string name="dictation_model_dialog_message">Offline dictation requires downloading speech recognition weights (%1$s, %2$s). It runs 100% locally in 35+ languages.</string>
+    <string name="dictation_model_dialog_message">Offline dictation requires downloading speech recognition weights (%1$s, %2$s). It runs 100%% locally in 35+ languages.</string>
     <string name="dictation_model_downloading">Downloading voice dictation engine\u2026</string>
 
     <!-- Debug -->
